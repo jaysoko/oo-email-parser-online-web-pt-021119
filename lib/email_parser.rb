@@ -9,13 +9,12 @@ attr_accessor :email_list
 
 def initialize(email_list)
   @email_list = email_list
-
 end
 
 def parse
 emails = []
 emails = @email_list.split(/,\s/)
-
+emails
 end
 
 
