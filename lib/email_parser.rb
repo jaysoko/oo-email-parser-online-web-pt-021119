@@ -13,7 +13,7 @@ end
 
 def parse
 emails = []
-emails = @email_list.split(/,\s/)
+emails = @email_list.split(/[,\s]+/)
 emails
 end
 
