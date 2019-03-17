@@ -14,7 +14,7 @@ end
 def parse
 emails = []
 emails = @email_list.split(/[,\s]+/)
-emails
+emails.uniq
 end
 
 
